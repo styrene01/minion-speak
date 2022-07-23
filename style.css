@@ -39,6 +39,7 @@ nav p {
 }
 
 textarea {
+    font-size: large;
     border: 2px solid black;
     width: 100%;
     max-width: var(--width-center);
