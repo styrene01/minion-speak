@@ -12,7 +12,7 @@ function getTranslationURL(text) {
 }
 
 function errorHandler(error) {
-    console.log("Error! " + error);
+    console.log("Error! Either you have used all 5 attempts in 1 hour or the server is down." + error);
 }
 
 function clickEvent() {

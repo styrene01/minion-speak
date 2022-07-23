@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap");
+
+/* define all css variables like color */
+:root {
+    --primary-color: #fcd34d;
+    --width-center: 600px;
+}
+
+body {
+    font-family: "Edu TAS Beginner", cursive;
+    margin: 0px;
+    font-size: 2rem;
+}
+
+body .main {
+    margin: auto;
+    padding: 1rem;
+    padding-bottom: 5rem;
+    max-width: var(--width-center);
+}
+
+nav {
+    background-color: #fcd34d;
+    text-align: center;
+    padding: 1.5rem 0rem;
+    width: 100%;
+    font-size: 2rem;
+}
+
+nav div {
+    font-family: "Noto Sans", sans-serif;
+    padding-bottom: 1rem;
+}
+nav p {
+    font-size: 1.5rem;
+    max-width: var(--width-center);
+    margin: auto;
+}
+
+textarea {
+    border: 2px solid black;
+    width: 100%;
+    max-width: var(--width-center);
+    height: 10vh;
+    padding: 1rem 0rem;
+    margin: 1rem 0rem;
+    height: 50px;
+}
+
+#btn-translate {
+    background-color: #fcd34d;
+    padding: 1rem 2rem;
+    margin: 1rem 0rem;
+    font-size: 1.5rem;
+    font-family: "Edu TAS Beginner", cursive;
+}
+
+#output {
+    border: 2px solid black;
+    padding: 1rem 0rem;
+    margin: 1rem 0rem;
+    height: 50px;
+}
+
+footer {
+    /* position: fixed;
+    bottom: 0; */
+    font-family: "Noto Sans", sans-serif;
+    width: 100%;
+    padding: 1.5rem 1rem;
+    text-align: center;
+    background-color: #fcd34d;
+    font-size: 1.5rem;
+}
+
+footer ul {
+    padding-inline-start: 0px;
+}
+.social-link {
+    max-width: 50px;
+    padding: 0.5rem;
+    margin: auto;
+}
+
+.list-item-inline {
+    display: inline;
+    padding: 0rem 1rem;
+}
+.list-non-bullet {
+    list-style: none;
+}
